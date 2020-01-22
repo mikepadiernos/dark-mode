@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Navbar = () => {
+const NavBar = () => {
   const [darkMode, setDarkMode] = useState(false);
   const toggleMode = e => {
     e.preventDefault();
@@ -19,4 +19,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;

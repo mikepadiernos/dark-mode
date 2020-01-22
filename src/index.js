@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import axios from "axios";
 
 import Charts from "./components/Chart/Charts";
-import Navbar from "./components/Navbar/Navbar";
+import NavBar from "./components/NavBar/NavBar";
 
 import "./styles.scss";
 
@@ -20,7 +20,7 @@ const App = () => {
   }, []);
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
       <Charts coinData={coinData} />
     </div>
   );
