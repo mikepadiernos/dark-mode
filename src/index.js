@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import axios from "axios";
 
-import Charts from "./components/Charts";
-import Navbar from "./components/Navbar";
+import Charts from "./components/Chart/Charts";
+import NavBar from "./components/NavBar/NavBar";
 
 import "./styles.scss";
 
@@ -20,7 +20,7 @@ const App = () => {
   }, []);
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
       <Charts coinData={coinData} />
     </div>
   );
